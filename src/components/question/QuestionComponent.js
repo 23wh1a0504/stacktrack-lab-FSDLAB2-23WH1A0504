@@ -40,7 +40,7 @@ function QuestionComponent() {
        placeholder='Enter keyword'
        value={search}
        onChange={(e) => setSearch(e.target.value)}/>
-
+        <button onclick = {handleSearch}>search</button>
        <ul>
         {tasks.length == 0 && <p> No tasks found</p>}
 
